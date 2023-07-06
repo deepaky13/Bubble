@@ -1,0 +1,18 @@
+#first{
+   border:1px solid black;
+   background-color:black;
+   color: white ;
+}
+body{
+   height:100vh;
+   width:100vw;
+}
+#draw{
+   border:1px solid black;
+   height:500px;
+   width:500px;
+}
+progress{
+border:1px solid black;
+background-color:Blue;
+}
