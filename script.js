@@ -101,15 +101,3 @@ function recursive() {
 }
 }
 recursive();
-let can=document.querySelector('#draw');
-let ctx=can.getContext('2d');
-ctx.beginPath();
-/*ctx.bezierCurveTo(50,100,50,50,200,100);
-ctx.bezierCurveTo(50,100,50,50,100,100);
-ctx.quardraticCurveTo(500,500,200,200);*/
-ctx.arc(20,30,10,0,Math.PI+2,false);
-ctx.arcTo(50,100,109,109,10);
-//ctx.arcTo(49,30,69,79,10);
-ctx.fillStyle='red';
-ctx.fill();
-ctx.closePath();
